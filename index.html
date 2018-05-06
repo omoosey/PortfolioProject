@@ -4,36 +4,56 @@
 	<title>Mariano Salamanca Jr's Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300i,400" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<header>
-		<h1>Mariano Salamanca Jr.</h1>
-		<h3>Front-End Ninja</h3>
+		<div class="logo">
+			<img src="img/udacity.svg">
+		</div>
+		<div class="name">
+			<h1>Mariano Salamanca Jr.</h1>
+			<h3><em>Front-End Ninja</em></h3>
+		</div>
 	</header>
-
 	<hr>
 	
 	<main>
 		<section class="splash">
 			<figure>
-				<img src="img/laurent-peignault-119950-unsplash.jpg" alt="Computer_Workstation">
+				<img srcset="img/laurent-peignault-119950-unsplash-360w.jpg 360w,
+							 img/laurent-peignault-119950-unsplash-780w.jpg 780w,
+							 img/laurent-peignault-119950-unsplash-1024w.jpg 1024w"
+					 sizes="(max-width: 360px) 340px,
+					 		(max-width: 765px) 745px,
+					 		1024px" 
+					 src="img/laurent-peignault-119950-unsplash-1024w.jpg" alt="Computer_Workstation">
 				<figcaption><em>Photo by Laurent Peignault on Unsplash</em></figcaption>
 			</figure>
 		</section>
-
+		<!-- <hr> -->
+		<!-- <hr> -->
+		<h2>Featured Work</h2>
+		<!-- <hr>	 -->
 		<section class="projects">
-			<h2>Featured Work</h2>
-			<div class="projectPreview">
-				<img src="img/screenshot_4.jpg">
+			<div class="projectPreview eastWest">
+				<img srcset="img/ewsod-360w.jpg 360w,
+							 img/ewsod-780w.jpg 780w,
+							 img/ewsod-1024w.jpg 1024w"
+					 sizes="(max-width: 360px) 340px,
+					 		(max-width: 765px) 745px,
+					 		1024px" 
+					 src="img/ewsod-1024w.jpg">
 				<p>East West School of Dance Mock Up</p>
 				<a href="https://github.com/omoosey/EastWestDance">https://github.com/omoosey/EastWestDance</a>
 			</div>
-			<div class="projectPreview">
+			<div class="projectPreview pixelArt">
 				<img src="img/screenshot_2.jpg">
 				<p>Pixel Art Maker</p>
 				<a href="https://codepen.io/omoosey/pen/RMoVvE">https://codepen.io/omoosey/pen/RMoVvE</a>
 			</div>
-			<div>
+			<div class="projectPreview animalCard">
 				<img src="img/AnimalCard.jpg">
 				<p>Animal Card</p>
 				<a href="https://codepen.io/omoosey/pen/OZxzqW">https://codepen.io/omoosey/pen/OZxzqW</a>

@@ -1,0 +1,15 @@
+@media screen and (min-width: 695px) {
+	.projectPreview {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	header, main {
+		width: 900px;
+		margin: auto;
+	}
+	hr {
+		width: 900px;
+	}
+}
