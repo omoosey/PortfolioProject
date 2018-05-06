@@ -4,12 +4,15 @@
 	}
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
 	header, main {
-		width: 900px;
+		width: 1024px;
 		margin: auto;
 	}
 	hr {
-		width: 900px;
+		width: 1024px;
+	}
+	.projectPreview {
+		width: 33.33333%;
 	}
 }
