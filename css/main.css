@@ -6,7 +6,7 @@ img {
 	width: 5%;
 }
 
-header, main, .projects {
+header, main, .projects, .contactLinks {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -40,5 +40,11 @@ figure {
 .logo {
 	align-self: center;
 }
+
+.contact ul {
+	list-style-position: inside;
+}
+
+
 
 
